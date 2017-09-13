@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Updating a User</title>
+    <script>
+        vFind(){
+            //Put your java file to find the user
+            //Display in the textarea with this code so the user can verify
+            //document.getElementById("Found").value = stuff to put in
+        }
+        vUpdate() {
+            //Put your java file in to Update the user
+            //Display for user to verify
+        }
+    </script>
+</head>
+<body>
+<img src="banner.png">
+    <h1 style="text-align:center">Updating a User</h1>
+   <h2 >Find user to update:</h2>
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="ID" > </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" onclick="vFind()">Find User</button></td>
+        </tr>
+
+    </table>
+    <textarea id="Found" rows="4" cols="100"></textarea>
+    <h2>Information to Update:</h2>
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="ID" > </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" onclick="vUpdate()">Update User</button></td>
+        </tr>
+
+    </table>
+    <textarea id="update" rows="4" cols="100"></textarea>
+    <p style="text-align:center"> <a href="GUI.html">Back to home</a></p>
+</body>
+</html>
