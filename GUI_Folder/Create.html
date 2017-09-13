@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create User</title>
+    <style>
+        h1 {text-align:center}
+    </style>
+    <script type="">
+        function vAdd(){
+            var firstName = document.getElementById("first").value;
+            var lastName = document.getElementById("last").value;
+            var ID = document.getElementById("ID").value;
+            var email = document.getElementById("email").value;
+
+            document.getElementById("Add").value = "First name: " + firstName + "\n" +
+                "Last Name: " + lastName + "\n" + "ID: " + ID + "\n" + "Email: " + email;
+
+            }
+    </script>
+</head>
+<body>
+<img src="banner.png">
+    <h1>Adding a User</h1>
+
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" id="first"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" id="last"></td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" id="ID" > </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" onclick="vAdd()">Add User</button></td>
+        </tr>
+
+    </table>
+    <textarea id="Add" rows="4" cols="100"></textarea>
+
+<p style="text-align:center"> <a href="GUI.html">Back to home</a></p>
+</body>
+</html>
