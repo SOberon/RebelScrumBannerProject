@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deleting a User</title>
+    <script>
+         vFind(){
+            //Put your java file to find the user
+            //Display in the textarea with this code so the user can verify
+            //document.getElementById("Found").value = stuff to put in
+        }
+        vDelete() {
+            //Put your java file in to Delete the user
+        }
+    </script>
+</head>
+<body>
+    <img src="banner.png">
+    <h1 style="text-align:center">Deleting a User:</h1>
+    <h2>Find user to delete:</h2>
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="ID" > </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" onclick="vFind()">Find User</button></td>
+        </tr>
 
+    </table>
+    <textarea id="Found" rows="4" cols="100"></textarea>
+    <h3 style="text-align:center">Is this your user? Delete below:</h3>
+    <p style="text-align:center"><button type="button" onclick="vDelete()">Delete User</button></p>
+    <p style="text-align:center"> <a href="GUI.html">Back to home</a></p>
+</body>
+</html>
