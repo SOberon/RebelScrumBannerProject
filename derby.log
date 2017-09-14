@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Thu Sep 14 10:59:23 MDT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-8154-aad8-00000092b720 
-on database directory memory:C:\Users\pauga\OneDrive\SoftwareDev\Work\CS3250Project\testdb with class loader sun.misc.Launcher$AppClassLoader@a298b7 
+Thu Sep 14 13:48:31 MDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-81ef-82ef-000000d4f0f0 
+on database directory memory:C:\Users\pauga\OneDrive\SoftwareDev\Work\CS3250Project\testdb with class loader sun.misc.Launcher$AppClassLoader@b4aac2 
 Loaded from file:/C:/Users/pauga/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_144-b01
