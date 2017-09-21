@@ -1,7 +1,7 @@
 import java.util.*;
-import User.java
+import User.java;
 
-public class Student extends User(){
+public class Student extends User{
 	private string major;
 	private string residentStatus;
 	private string financialData;

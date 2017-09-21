@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <title>Deleting a User</title>
     <script>
-         vFind(){
+             function vFind() {
             //Put your java file to find the user
             //Display in the textarea with this code so the user can verify
             //document.getElementById("Found").value = stuff to put in
         }
-        vDelete() {
-            //Put your java file in to Delete the user
+
+             function vDelete(){
+
+
         }
     </script>
 </head>
 <body>
+
     <img src="banner.png">
     <h1 style="text-align:center">Deleting a User:</h1>
     <h2>Find user to delete:</h2>
@@ -43,7 +46,18 @@
     </table>
     <textarea id="Found" rows="4" cols="100"></textarea>
     <h3 style="text-align:center">Is this your user? Delete below:</h3>
+
+
     <p style="text-align:center"><button type="button" onclick="vDelete()">Delete User</button></p>
+
+
+
+    <p id="deleted"></p>
+    <script>
+        function vDelete() {
+            document.getElementById("deleted").innerHTML = "User has been deleted";
+        }
+    </script>
     <p style="text-align:center"> <a href="GUI.html">Back to home</a></p>
 </body>
 </html>
